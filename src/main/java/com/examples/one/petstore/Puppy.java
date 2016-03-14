@@ -1,4 +1,4 @@
-package com.examples.one.petstore;
+package src.main.java.com.examples.one.petstore;
 public class Puppy {
 
     int id;
@@ -7,6 +7,13 @@ public class Puppy {
     Boolean loudBark;
     Boolean friendlyWithChildren;
 
+    public Puppy()
+    {
+        this.id = 0;
+        this.name = "";
+        this.breed = null;
+    }
+    
     public Puppy (int id, String name, String breed []){
         this.id = id;
         this.name = name;

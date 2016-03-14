@@ -1,4 +1,4 @@
-package com.examples.one.petstore;
+package src.main.java.com.examples.one.petstore;
 
 /**
  * Created by Bobby on 14-Mar-16.
@@ -9,6 +9,13 @@ public class Kitten {
     String[] breed = {"Persian", "Siamese", "Bengal"};
     Boolean sensitiveToFeeding;
 
+    public Kitten()
+    {
+        this.id = 0;
+        this.name = "";
+        this.breed = null;
+    }
+    
     public Kitten(int id, String name, String[] breed)
     {
         this.id = id;

@@ -4,6 +4,8 @@ import java.util.*;
 
 public class PuppyDB
 {
+    Puppy p = new Puppy();
+    
     ArrayList<Puppy> Puppies = new ArrayList();
     
     boolean addPuppy(Puppy p)
@@ -18,7 +20,7 @@ public class PuppyDB
     
     Puppy getPuppy(int id)
     {
-        return Puppy.id;
+        return p;
     }
     
     int countPuppies()

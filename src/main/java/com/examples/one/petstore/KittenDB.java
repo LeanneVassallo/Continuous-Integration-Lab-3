@@ -6,6 +6,8 @@ public class KittenDB
 {
     ArrayList<Kitten> Kittens = new ArrayList();
     
+    Kitten k = new Kitten();
+    
     boolean addKitten(Kitten k)
     {
         return true;
@@ -18,7 +20,7 @@ public class KittenDB
     
     Kitten getKitten(int id)
     {
-        return Kitten.id;
+        return k;
     }
     
     int countKittens()
